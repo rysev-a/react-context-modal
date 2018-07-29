@@ -1,5 +1,5 @@
-import React from 'react';
-import ModalContext from './ModalContext';
+import React from "react";
+import ModalContext from "./ModalContext";
 
 const withModalContext = component => (
   <ModalContext.Consumer>{component}</ModalContext.Consumer>

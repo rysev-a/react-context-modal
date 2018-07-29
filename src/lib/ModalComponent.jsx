@@ -15,8 +15,8 @@ const ModalComponent = ({
       [activeClassName]: isModalOpen
     })}
   >
-    <Content closeModal={closeModal} />
     <div className={backgroundClassName} onClick={closeModal} />
+    <Content closeModal={closeModal} />
   </div>
 );
 
