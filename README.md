@@ -121,4 +121,4 @@ render(<App />, document.getElementById("app"));
 }
 ```
 
-You can run in a local development server using `npm run dev` or `yarn run dev`.
+You can run in a local development server using `npm run dev` or `yarn run dev` or view [demo](https://rysev-a.github.io/react-context-modal/)
